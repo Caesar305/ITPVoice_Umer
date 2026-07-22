@@ -43,9 +43,9 @@ subprojects {
             // Some plugins (e.g. flutter_dtmf) declare a low compileSdk and
             // mismatched Java/Kotlin targets which AGP 8+ rejects.
             android {
-                compileSdkVersion 35
+                compileSdkVersion 36
                 defaultConfig {
-                    targetSdkVersion 35
+                    targetSdkVersion 36
                 }
                 compileOptions {
                     sourceCompatibility JavaVersion.VERSION_17
